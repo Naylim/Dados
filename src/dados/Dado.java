@@ -6,14 +6,14 @@ import java.util.Random;
  * @author Naylim Dorame
  * @author Jonathan Herrera
  */
-public class Dados {
+public class Dado {
     private int lados;
     
-    public Dados(){
+    public Dado(){
         lados=6;
     }
 
-    public Dados(int lados){
+    public Dado(int lados){
         this.lados=lados;
     }
     

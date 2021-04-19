@@ -6,7 +6,7 @@ package dados;
  * @author Jonathan Herrera
  */
 public class Juego {
-	public static void comenzar(Dado dado){
+    public static void comenzar(Dado dado){
         int suma1=0, suma2=0, cara1, cara2;
         for (int a = 0; a < 5; a++){
             cara1 = dado.lanzar();
